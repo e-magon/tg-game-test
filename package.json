@@ -1,0 +1,23 @@
+{
+  "name": "tg-game-test",
+  "version": "1.0.0",
+  "description": "Telegram game test",
+  "main": "app.js",
+  "scripts": {
+    "start": "forever app.js",
+    "serve": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e-magon/tg-game-test.git"
+  },
+  "author": "e-magon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/e-magon/tg-game-test/issues"
+  },
+  "homepage": "https://github.com/e-magon/tg-game-test#readme",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.53.0"
+  }
+}
